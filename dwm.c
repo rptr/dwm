@@ -1410,7 +1410,7 @@ run(void)
 void
 autostart(void)
 {
-    system("cd ~/.dwm; ./autostart.sh &");
+    system("cd ~/.dwm; sh autostart.sh");
 }
 
 void
